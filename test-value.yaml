@@ -1,0 +1,6 @@
+architecture: replicaset
+replicaCount: 3
+persistance:
+  storageClass: "linode-block-storage"
+auth:
+  rootPassword: serect-root-password
